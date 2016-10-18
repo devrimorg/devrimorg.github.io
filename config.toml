@@ -1,0 +1,41 @@
+baseurl = "devrimorg.github.io"
+title = "devrim.org"
+canonifyurls = true
+paginate = 10
+theme = "startbootstrap-clean-blog"
+languageCode = "tr-TR"
+copyright = "devrim.org yapım aşamasındadır."
+
+[author]
+  name = "Devrim"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "Sürdürülebilir, bütüncül ve barışçıl bir devrimi savunan, doğayı ve insanı merkeze alan ilerici bir Anadolu hareketidir."
+  Author = "Devrim"
+  email = "merhaba@devrim.org"
+  Ganalytics = "XX-00000000-0"
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/devrimorg"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/devrimorg"
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/devrimorg"
+
+[[menu.main]]
+    name = "Yapım Aşamasındadır"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Nedir?"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "about"
+    url = "/post/hakkımda"
+  
